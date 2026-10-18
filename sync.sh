@@ -7,7 +7,7 @@
 # Safe to run every session: it does nothing when already on PSTACK_SHA, and it
 # never fails the caller (a network error skips the update).
 
-PSTACK_SHA=dbf49813a39c1a5389c5e28cb8e4c1c2379e2454
+PSTACK_SHA=0b8e952052d482ee6de06deebf14d590d77b1b34
 PSTACK_SKILLS="unslop technical-writing teach how why tdd figure-it-out show-me-your-work"
 PSTACK_GLOB="principle-*"   # with the 8 above: 32 skills at e5a8186
 INSTALL_REV=2               # bump when this script changes what it installs, to force a reinstall
